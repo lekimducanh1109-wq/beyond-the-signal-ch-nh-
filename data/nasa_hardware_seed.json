@@ -1,0 +1,371 @@
+{
+  "project": "BEYOND THE SIGNAL",
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-10",
+  "data_policy": "Demo seed only. Each fact is linked to an official NASA source. Verify the source and manually curate every media candidate before public publication. Do not treat search results as approved images.",
+  "challenge": "NASA Space Apps Challenge 2026 hardware storytelling challenge supplied by the team",
+  "records": [
+    {
+      "slug": "opportunity",
+      "name": "Opportunity",
+      "official_name": "Mars Exploration Rover B (MER-B)",
+      "mission": "Mars Exploration Rover",
+      "destination": "Mars",
+      "device_type": "rover",
+      "record_state": "featured_exhibition",
+      "demo_level": "deep",
+      "short_hook_vi": "Một robot được thiết kế cho 90 ngày Sao Hỏa nhưng đã khám phá gần 15 năm.",
+      "summary_vi": "Opportunity khảo sát Meridiani Planum, nghiên cứu đá và đất để tìm hiểu môi trường Sao Hỏa cổ đại. Nhiệm vụ vượt xa thời hạn dự kiến; rover ngừng liên lạc trong một cơn bão bụi toàn cầu vào tháng 6/2018 và NASA tuyên bố kết thúc nhiệm vụ vào tháng 2/2019.",
+      "key_facts": [
+        {
+          "claim": "Phóng ngày 7/7/2003.",
+          "source_ids": [
+            "opportunity_mission"
+          ]
+        },
+        {
+          "claim": "NASA ghi ngày hạ cánh là 24/1/2004.",
+          "source_ids": [
+            "opportunity_mission"
+          ],
+          "note": "Dùng ngày theo mốc thời gian chính thức trên trang NASA; không tự đổi múi giờ."
+        },
+        {
+          "claim": "Thiết kế cho nhiệm vụ ban đầu 90 sols (ngày Sao Hỏa).",
+          "source_ids": [
+            "opportunity_mission"
+          ]
+        },
+        {
+          "claim": "Liên lạc cuối cùng ngày 10/6/2018; NASA tuyên bố kết thúc nhiệm vụ ngày 13/2/2019.",
+          "source_ids": [
+            "opportunity_mission"
+          ]
+        },
+        {
+          "claim": "Tổng quãng đường cuối nhiệm vụ: 45,16 km.",
+          "source_ids": [
+            "opportunity_mission"
+          ]
+        },
+        {
+          "claim": "Bằng chứng địa chất do Opportunity thu thập cho thấy Sao Hỏa từng có môi trường có thể hỗ trợ sự sống vi sinh vật.",
+          "source_ids": [
+            "opportunity_mission"
+          ],
+          "note": "Diễn đạt đúng là bằng chứng về điều kiện có thể thuận lợi cho sự sống, không phải phát hiện sự sống."
+        }
+      ],
+      "hardware_components": [
+        "Pancam",
+        "Navigation Cameras",
+        "Mini-TES",
+        "Mössbauer Spectrometer",
+        "APXS",
+        "Microscopic Imager",
+        "Rock Abrasion Tool",
+        "solar arrays",
+        "robotic arm",
+        "wheels",
+        "antennas"
+      ],
+      "media_search_queries": [
+        "Mars Exploration Rover Opportunity NASA rover full spacecraft",
+        "NASA Opportunity final panorama Perseverance Valley",
+        "NASA Opportunity rover robotic arm APXS"
+      ],
+      "sources": [
+        "opportunity_mission",
+        "opportunity_final_panorama",
+        "opportunity_last_images",
+        "opportunity_jpl_gallery"
+      ]
+    },
+    {
+      "slug": "pioneer-11",
+      "name": "Pioneer 11",
+      "official_name": "Pioneer-G / Pioneer 11",
+      "mission": "Pioneer 11",
+      "destination": "Deep Space",
+      "device_type": "deep_space_probe",
+      "record_state": "featured_exhibition",
+      "demo_level": "deep",
+      "short_hook_vi": "Con tàu tiên phong đã lần đầu đưa con người đến gần Sao Thổ bằng một chuyến bay thăm dò.",
+      "summary_vi": "Pioneer 11 bay qua Sao Mộc rồi Sao Thổ, thu thập dữ liệu về các hành tinh khổng lồ và môi trường không gian. NASA mất liên lạc vào năm 1995; con tàu tiếp tục trên quỹ đạo hướng ra ngoài hệ Mặt Trời.",
+      "key_facts": [
+        {
+          "claim": "Phóng ngày 6/4/1973.",
+          "source_ids": [
+            "pioneer11_mission"
+          ]
+        },
+        {
+          "claim": "Bay qua Sao Mộc ngày 3/12/1974.",
+          "source_ids": [
+            "pioneer11_mission"
+          ]
+        },
+        {
+          "claim": "Bay qua Sao Thổ ngày 1/9/1979; là tàu vũ trụ đầu tiên bay qua Sao Thổ.",
+          "source_ids": [
+            "pioneer11_mission",
+            "pioneer11_saturn_image"
+          ]
+        },
+        {
+          "claim": "NASA liên lạc lần cuối ngày 30/9/1995; dữ liệu kỹ thuật cuối cùng được nhận ngày 24/11/1995.",
+          "source_ids": [
+            "pioneer11_mission"
+          ]
+        },
+        {
+          "claim": "Pioneer 11 mang Pioneer Plaque, không phải Voyager Golden Record.",
+          "source_ids": [
+            "pioneer11_mission",
+            "pioneer_plaque"
+          ]
+        }
+      ],
+      "hardware_components": [
+        "high-gain antenna",
+        "RTG power sources",
+        "magnetometers",
+        "plasma analyzer",
+        "imaging photopolarimeter",
+        "infrared radiometer",
+        "charged-particle and cosmic-ray instruments"
+      ],
+      "media_search_queries": [
+        "NASA Pioneer 11 spacecraft model photograph",
+        "Pioneer 11 Saturn flyby NASA image",
+        "NASA Pioneer plaque Pioneer 11 closeup"
+      ],
+      "sources": [
+        "pioneer11_mission",
+        "pioneer11_stories",
+        "pioneer11_saturn_image",
+        "pioneer_plaque"
+      ]
+    },
+    {
+      "slug": "surveyor-3",
+      "name": "Surveyor 3",
+      "official_name": "Surveyor-C",
+      "mission": "Surveyor 3",
+      "destination": "Moon",
+      "device_type": "lunar_lander",
+      "record_state": "demo_record",
+      "demo_level": "compact",
+      "short_hook_vi": "Một tàu đổ bộ robot được các phi hành gia Apollo 12 đến thăm sau hơn hai năm.",
+      "summary_vi": "Surveyor 3 hạ cánh mềm xuống Mặt Trăng năm 1967. Năm 1969, phi hành gia Apollo 12 tiếp cận địa điểm hạ cánh, tháo camera truyền hình và một số bộ phận của tàu để đưa về Trái Đất nghiên cứu.",
+      "key_facts": [
+        {
+          "claim": "Phóng ngày 17/4/1967; hạ cánh ngày 20/4/1967.",
+          "source_ids": [
+            "surveyor3_mission"
+          ]
+        },
+        {
+          "claim": "Lần liên lạc cuối với Surveyor 3 là ngày 4/5/1967.",
+          "source_ids": [
+            "surveyor3_mission"
+          ]
+        },
+        {
+          "claim": "Apollo 12 hạ cánh cách Surveyor 3 khoảng 600 feet; phi hành gia mang camera TV và một số bộ phận về Trái Đất để nghiên cứu.",
+          "source_ids": [
+            "apollo12_surveyor3"
+          ]
+        }
+      ],
+      "media_search_queries": [
+        "NASA Surveyor 3 Apollo 12 lunar surface spacecraft",
+        "NASA Surveyor 3 lunar lander TV camera"
+      ],
+      "sources": [
+        "surveyor3_mission",
+        "apollo12_surveyor3"
+      ]
+    },
+    {
+      "slug": "viking-1",
+      "name": "Viking 1",
+      "official_name": "Viking 1 Orbiter and Lander",
+      "mission": "Viking",
+      "destination": "Mars",
+      "device_type": "orbiter_lander",
+      "record_state": "demo_record",
+      "demo_level": "compact",
+      "short_hook_vi": "Tàu đổ bộ đã gửi những hình ảnh đầu tiên từ bề mặt Sao Hỏa trong một lần hạ cánh thành công của NASA.",
+      "summary_vi": "Viking 1 gồm tàu quỹ đạo và tàu đổ bộ. Lander chạm xuống Sao Hỏa ngày 20/7/1976, chụp ảnh, lấy mẫu đất và thực hiện các thí nghiệm về môi trường cũng như khả năng tồn tại sự sống.",
+      "key_facts": [
+        {
+          "claim": "Phóng ngày 20/8/1975; đi vào quỹ đạo Sao Hỏa ngày 19/6/1976.",
+          "source_ids": [
+            "viking1_mission"
+          ]
+        },
+        {
+          "claim": "Viking 1 lander hạ cánh ngày 20/7/1976 và gửi về những hình ảnh đầu tiên từ bề mặt Sao Hỏa.",
+          "source_ids": [
+            "viking1_mission"
+          ]
+        },
+        {
+          "claim": "Orbiter ngừng hoạt động ngày 7/8/1980; lander ngừng hoạt động ngày 11/11/1982.",
+          "source_ids": [
+            "viking1_mission"
+          ]
+        },
+        {
+          "claim": "Các thí nghiệm sinh học không đưa ra kết quả xác nhận sự sống trên Sao Hỏa.",
+          "source_ids": [
+            "viking1_mission"
+          ],
+          "note": "Không diễn giải sai thành phát hiện sự sống."
+        }
+      ],
+      "media_search_queries": [
+        "NASA Viking 1 Mars lander first surface photograph",
+        "NASA Viking 1 lander panorama Mars"
+      ],
+      "sources": [
+        "viking1_mission",
+        "viking1_first_photo"
+      ]
+    },
+    {
+      "slug": "sojourner",
+      "name": "Sojourner",
+      "official_name": "Mars Pathfinder Sojourner Rover",
+      "mission": "Mars Pathfinder",
+      "destination": "Mars",
+      "device_type": "mars_rover",
+      "record_state": "demo_record",
+      "demo_level": "compact",
+      "short_hook_vi": "Chiếc rover nhỏ bé đã hoạt động 83 ngày, thay vì kế hoạch ban đầu chỉ 7 ngày.",
+      "summary_vi": "Sojourner là rover được Mars Pathfinder đưa lên bề mặt Sao Hỏa năm 1997. Nó chụp ảnh, khảo sát đá và đất, sử dụng APXS để phân tích thành phần hóa học và chứng minh một phương thức đưa rover nhỏ xuống Sao Hỏa.",
+      "key_facts": [
+        {
+          "claim": "Mars Pathfinder phóng ngày 4/12/1996 và hạ cánh ngày 4/7/1997.",
+          "source_ids": [
+            "pathfinder_mission"
+          ]
+        },
+        {
+          "claim": "Sojourner hoạt động 83 ngày so với thời gian nhiệm vụ dự kiến 7 ngày.",
+          "source_ids": [
+            "sojourner_first_images",
+            "sojourner_yogi"
+          ]
+        },
+        {
+          "claim": "Pathfinder nhận dữ liệu cuối cùng ngày 27/9/1997; nhiệm vụ được tuyên bố chấm dứt sau các nỗ lực khôi phục liên lạc.",
+          "source_ids": [
+            "sojourner_first_images"
+          ]
+        }
+      ],
+      "hardware_components": [
+        "six wheels",
+        "solar panels",
+        "APXS",
+        "front and rear cameras",
+        "radio link to Pathfinder lander"
+      ],
+      "media_search_queries": [
+        "NASA Sojourner rover Mars Pathfinder official image",
+        "NASA Sojourner rover APXS Yogi rock",
+        "NASA Pathfinder airbags rover Mars"
+      ],
+      "sources": [
+        "pathfinder_mission",
+        "pathfinder_rover_airbags",
+        "sojourner_first_images",
+        "sojourner_yogi"
+      ]
+    }
+  ],
+  "source_catalog": {
+    "opportunity_mission": {
+      "title": "Opportunity Mission",
+      "url": "https://science.nasa.gov/mission/mer-opportunity/",
+      "publisher": "NASA Science"
+    },
+    "opportunity_final_panorama": {
+      "title": "Opportunity Rover's Final Mars Images",
+      "url": "https://science.nasa.gov/resource/opportunity-rovers-final-mars-images/",
+      "publisher": "NASA Science"
+    },
+    "opportunity_last_images": {
+      "title": "Last Images Opportunity Took",
+      "url": "https://science.nasa.gov/resource/last-images-opportunity-took/",
+      "publisher": "NASA Science"
+    },
+    "opportunity_jpl_gallery": {
+      "title": "Images from Opportunity",
+      "url": "https://www.jpl.nasa.gov/news/images-from-opportunity/",
+      "publisher": "NASA JPL"
+    },
+    "pioneer11_mission": {
+      "title": "Pioneer 11",
+      "url": "https://science.nasa.gov/mission/pioneer-11/",
+      "publisher": "NASA Science"
+    },
+    "pioneer11_stories": {
+      "title": "Pioneer 11 Stories",
+      "url": "https://science.nasa.gov/mission/pioneer-11/stories/",
+      "publisher": "NASA Science"
+    },
+    "pioneer11_saturn_image": {
+      "title": "Pioneer 11 at Saturn",
+      "url": "https://science.nasa.gov/resource/pioneer-11-at-saturn/",
+      "publisher": "NASA Science"
+    },
+    "pioneer_plaque": {
+      "title": "Pioneer Plaque",
+      "url": "https://science.nasa.gov/resource/pioneer-plaque/",
+      "publisher": "NASA Science"
+    },
+    "surveyor3_mission": {
+      "title": "Surveyor 3",
+      "url": "https://science.nasa.gov/mission/surveyor-3/",
+      "publisher": "NASA Science"
+    },
+    "apollo12_surveyor3": {
+      "title": "Apollo 12 and Surveyor 3",
+      "url": "https://science.nasa.gov/resource/apollo-12-and-surveyor-3/",
+      "publisher": "NASA Science"
+    },
+    "viking1_mission": {
+      "title": "Viking 1",
+      "url": "https://science.nasa.gov/mission/viking-1/",
+      "publisher": "NASA Science"
+    },
+    "viking1_first_photo": {
+      "title": "First photograph on Mars surface (referenced on Viking 1 mission page)",
+      "url": "https://science.nasa.gov/mission/viking-1/",
+      "publisher": "NASA Science"
+    },
+    "pathfinder_mission": {
+      "title": "Mars Pathfinder",
+      "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "publisher": "NASA Science"
+    },
+    "pathfinder_rover_airbags": {
+      "title": "Pathfinder's Rover, Airbags, & Martian Terrain",
+      "url": "https://science.nasa.gov/resource/pathfinders-rover-airbags-martian-terrain/",
+      "publisher": "NASA Science"
+    },
+    "sojourner_first_images": {
+      "title": "Sojourner's First Images From Mars",
+      "url": "https://science.nasa.gov/resource/sojourners-first-images-from-mars/",
+      "publisher": "NASA Science"
+    },
+    "sojourner_yogi": {
+      "title": "Sojourner & Yogi",
+      "url": "https://science.nasa.gov/resource/sojourner-yogi/",
+      "publisher": "NASA Science"
+    }
+  }
+}

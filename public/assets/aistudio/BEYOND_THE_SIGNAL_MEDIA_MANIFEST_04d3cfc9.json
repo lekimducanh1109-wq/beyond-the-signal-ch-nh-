@@ -1,0 +1,113 @@
+{
+  "policy": "Use only official NASA/NASA JPL/NASA Ames source pages and their downloadable media. All NASA exhibit media must be labeled with media_type, exact caption, credit, and source_page. Do not use generated imagery as NASA documentation.",
+  "items": [
+    {
+      "id": "opportunity_self_portrait_2004",
+      "mission": "opportunity",
+      "media_type": "NASA_PHOTO",
+      "title": "Opportunity Self-Portrait, Sols 322–323",
+      "source_page": "https://science.nasa.gov/resource/opportunity-self-portrait/",
+      "direct_asset_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/downloadable_items/3/37447_Sol322B_DeckPan_crop-PIA07372.jpg?crop=faces%2Cfocalpoint&fit=clip&h=3000&w=4000",
+      "credit": "NASA/JPL-Caltech/Cornell",
+      "caption_vi": "Ảnh tự chụp nhìn xuống của Opportunity trong các sol 322–323 (19–20/12/2004). Khung hình không bao gồm cột camera; cho thấy các tấm pin tương đối sạch bụi.",
+      "alt_vi": "Ảnh tự chụp của xe tự hành Opportunity nhìn xuống phần thân và các tấm pin trên bề mặt Sao Hỏa.",
+      "note": "Official NASA download link exposed on the resource page. If direct URL fails, open source_page and use its Download link."
+    },
+    {
+      "id": "opportunity_self_portrait_2014",
+      "mission": "opportunity",
+      "media_type": "NASA_PHOTO",
+      "title": "Self-Portrait by Freshly Cleaned Opportunity Mars Rover in March 2014",
+      "source_page": "https://science.nasa.gov/resource/self-portrait-by-freshly-cleaned-opportunity-mars-rover-in-march-2014/",
+      "direct_asset_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/downloadable_items/3/7/37740_pia18079-sols3611-3613-vert-L456-ATC_cr.jpg?crop=faces%2Cfocalpoint&fit=clip&h=1564&w=2000",
+      "credit": "NASA/JPL-Caltech/Cornell Univ./Arizona State Univ.",
+      "caption_vi": "Ảnh tự chụp tháng 3/2014, cho thấy gió đã thổi sạch một phần bụi tích tụ trên các tấm pin mặt trời của Opportunity.",
+      "alt_vi": "Ảnh tự chụp Opportunity năm 2014, tập trung vào thân xe và các tấm pin mặt trời.",
+      "note": "Direct NASA asset URL surfaced by the official page's download link."
+    },
+    {
+      "id": "opportunity_last_message",
+      "mission": "opportunity",
+      "media_type": "NASA_PHOTO",
+      "title": "Opportunity's Last Message",
+      "source_page": "https://science.nasa.gov/resource/opportunitys-last-message/",
+      "direct_asset_url": null,
+      "credit": "NASA/JPL-Caltech/Cornell/ASU",
+      "caption_vi": "Khung hình nhiễu, chưa hoàn chỉnh cuối cùng được Opportunity truyền về Trái Đất ngày 10/06/2018, sol thứ 5.111.",
+      "alt_vi": "Khung hình cuối cùng bị tối và nhiễu mà Opportunity truyền về trong bão bụi Sao Hỏa.",
+      "note": "Use official download from the source page. Good visual for the end-of-mission section."
+    },
+    {
+      "id": "opportunity_final_panorama",
+      "mission": "opportunity",
+      "media_type": "NASA_PHOTO",
+      "title": "Opportunity Rover's Final Mars Images",
+      "source_page": "https://science.nasa.gov/resource/opportunity-rovers-final-mars-images/",
+      "direct_asset_url": null,
+      "credit": "NASA/JPL-Caltech/Cornell/ASU",
+      "caption_vi": "Toàn cảnh cuối cùng được ghép từ 354 ảnh Pancam, thu từ 13/05 đến 10/06/2018 (sol 5084–5111).",
+      "alt_vi": "Toàn cảnh bề mặt Sao Hỏa do Opportunity chụp trước khi mất liên lạc.",
+      "note": "Use original or true-color download from source page; preserve false-color/true-color label."
+    },
+    {
+      "id": "opportunity_dusty_selfie_2011",
+      "mission": "opportunity",
+      "media_type": "NASA_PHOTO",
+      "title": "Dusty Mars Rover Selfie",
+      "source_page": "https://science.nasa.gov/resource/dusty-mars-rover-selfie/",
+      "direct_asset_url": null,
+      "credit": "NASA/JPL-Caltech/Cornell/Arizona State Univ.",
+      "caption_vi": "Ảnh tự chụp cho thấy bụi tích tụ trên các tấm pin của Opportunity vào tháng 12/2011.",
+      "alt_vi": "Ảnh tự chụp Opportunity với bụi phủ trên các tấm pin.",
+      "note": "Useful comparison against clean-array self portrait."
+    },
+    {
+      "id": "pioneer_spacecraft_diagram",
+      "mission": "pioneer-11",
+      "media_type": "NASA_DIAGRAM",
+      "title": "Pioneer Spacecraft Diagram",
+      "source_page": "https://science.nasa.gov/resource/pioneer-spacecraft-diagram/",
+      "direct_asset_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/7/72410main_ACD97-0036-2-1.jpg?crop=faces%2Cfocalpoint&fit=clip&h=2254&w=3000",
+      "credit": "NASA",
+      "caption_vi": "Sơ đồ thiết bị trên tàu Pioneer 10 và Pioneer 11; đây là sơ đồ kỹ thuật chính thức, không phải ảnh chụp trong không gian.",
+      "alt_vi": "Sơ đồ NASA chú thích các thiết bị khoa học trên tàu Pioneer 10 và 11.",
+      "note": "Use large enough to read labels; add a separate Vietnamese legend rather than editing the original diagram beyond recognition."
+    },
+    {
+      "id": "pioneer_plaque",
+      "mission": "pioneer-11",
+      "media_type": "NASA_PHOTO_OR_DIAGRAM",
+      "title": "Pioneer Plaque",
+      "source_page": "https://science.nasa.gov/resource/pioneer-plaque/",
+      "direct_asset_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/7/739463main_a73-9015-1.jpg?crop=faces%2Cfocalpoint&fit=clip&h=2507&w=3133",
+      "credit": "NASA / NASA Ames (source page attribution)",
+      "caption_vi": "Tấm bảng được mang trên cả Pioneer 10 và Pioneer 11, thể hiện con người và thông tin biểu tượng về vị trí Trái Đất.",
+      "alt_vi": "Tấm bảng Pioneer với hình hai người và sơ đồ biểu tượng vị trí Hệ Mặt Trời.",
+      "note": "Use the original NASA download. Do not imply only Pioneer 11 carried this plaque."
+    },
+    {
+      "id": "pioneer_saturn_titan",
+      "mission": "pioneer-11",
+      "media_type": "NASA_PHOTO",
+      "title": "Saturn, Its Rings, and Titan From Pioneer 11",
+      "source_page": "https://science.nasa.gov/image-detail/amf-cf2ae57d-b5f0-42ea-b5e3-c955208bc278/",
+      "direct_asset_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/730/Saturn_and_its_rings.jpeg",
+      "credit": "NASA/Ames",
+      "caption_vi": "Ảnh Sao Thổ, các vành và Titan được Pioneer 11 chụp ngày 01/09/1979 trong lần bay qua Sao Thổ.",
+      "alt_vi": "Sao Thổ và các vành đai cùng vệ tinh Titan trong ảnh do Pioneer 11 chụp.",
+      "note": "Direct image was visually confirmed from NASA asset. This is a spacecraft image, not artist concept."
+    },
+    {
+      "id": "pioneer_11_mission_page",
+      "mission": "pioneer-11",
+      "media_type": "NASA_MISSION_REFERENCE",
+      "title": "Pioneer 11 Mission Archive",
+      "source_page": "https://science.nasa.gov/mission/pioneer-11/",
+      "direct_asset_url": null,
+      "credit": "NASA Science / NASA Ames",
+      "caption_vi": "Trang nguồn nhiệm vụ chính thức dùng để đối chiếu ngày tháng, mục tiêu, thiết bị khoa học và lịch sử liên lạc.",
+      "alt_vi": "Trang thông tin nhiệm vụ Pioneer 11 của NASA.",
+      "note": "Contains full list of 12 scientific instruments, dates and contact chronology."
+    }
+  ]
+}

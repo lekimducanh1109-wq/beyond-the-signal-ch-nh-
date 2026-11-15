@@ -1,0 +1,515 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-editorial: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-sans: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+
+  /* Layered Atmospheric Space Museum Tokens */
+  --color-obsidian: #070B14;
+  --color-space-950: #070B14;
+  --color-space-900: #0B1324;
+  --color-space-800: #0F1A2E;
+  --color-space-700: #182842;
+  --color-ivory-50: #F0EDE5;
+  --color-ivory-100: #E7E2D6;
+  --color-stone-300: #AAB8C7;
+  --color-mars-500: #D2A071;
+  --color-mars-600: #C96F46;
+  --color-mars-700: #9A4A27;
+  --color-gold-400: #D2A071;
+  --color-gold-300: #DFB58C;
+  --color-gold-700: #8A623B;
+  --color-text-on-dark: #F0EDE5;
+  --color-text-muted-on-dark: #AAB8C7;
+  --color-text-on-light: #172233;
+  --color-signal-cyan: #7BA7BC;
+}
+
+:root {
+  --bg-primary: #070B13;
+  --bg-secondary: #0C121E;
+  --bg-surface: #121B2B;
+  --bg-elevated: #1C2B42;
+  --accent-copper: #D2A071;
+  --accent-rust: #C96F46;
+  --text-primary: #F0EDE5;
+  --text-secondary: #AAB8C7;
+
+  --obsidian: #070B13;
+  --space-950: #070B13;
+  --space-900: #0C121E;
+  --space-800: #121B2B;
+  --space-700: #1C2B42;
+  --ivory-50: #F0EDE5;
+  --ivory-100: #E7E2D6;
+  --stone-300: #AAB8C7;
+  --mars-500: #D2A071;
+  --mars-600: #C96F46;
+  --mars-700: #9A4A27;
+  --gold-400: #D2A071;
+  --gold-300: #DFB58C;
+  --gold-700: #8A623B;
+  --text-on-dark: #F0EDE5;
+  --text-muted-on-dark: #AAB8C7;
+  --text-on-light: #172233;
+  --signal-cyan: #7BA7BC;
+  --hairline-subtle: rgba(170, 184, 199, 0.16);
+  --hairline-gold: rgba(210, 160, 113, 0.34);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #060912;
+  color: #f8fafc;
+  font-family: "Be Vietnam Pro", system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+body {
+  background-color: #060912;
+  background-image:
+    /* Layer 1: Dense 3D Cosmic Starfield (1px, 1.5px, 2px white #ffffff and warm gold #fde68a) */
+    radial-gradient(1px 1px at 35px 45px, #ffffff, transparent),
+    radial-gradient(1px 1px at 155px 195px, #ffffff, transparent),
+    radial-gradient(1px 1px at 290px 80px, #ffffff, transparent),
+    radial-gradient(1px 1px at 395px 250px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 105px 130px, #fde68a, transparent),
+    radial-gradient(1.5px 1.5px at 240px 55px, #ffffff, transparent),
+    radial-gradient(1.5px 1.5px at 330px 185px, #fde68a, transparent),
+    radial-gradient(2px 2px at 190px 160px, rgba(255, 255, 255, 0.95), transparent),
+    radial-gradient(2px 2px at 320px 300px, rgba(253, 230, 138, 0.95), transparent),
+    /* Layer 2: NASA Telemetry Grid (40px x 40px, rgba(255, 255, 255, 0.04)) */
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    /* Layer 3: Diagonal Milky Way / Nebula Ribbon (bottom-left to top-right) */
+    linear-gradient(55deg, transparent 12%, rgba(14, 165, 233, 0.28) 36%, rgba(29, 78, 216, 0.35) 48%, rgba(14, 165, 233, 0.32) 60%, transparent 84%),
+    /* Layer 4: Upper-right celestial nebula expansion */
+    radial-gradient(ellipse 980px 580px at 78% 20%, rgba(14, 165, 233, 0.35) 0%, rgba(29, 78, 216, 0.25) 45%, transparent 75%),
+    /* Layer 5: Lower-left deep nebula cloud */
+    radial-gradient(ellipse 760px 480px at 16% 82%, rgba(14, 165, 233, 0.30) 0%, rgba(29, 78, 216, 0.20) 45%, transparent 70%),
+    /* Layer 6: Warm amber glow around radar orbit area */
+    radial-gradient(circle 520px at 20% 36%, rgba(217, 119, 6, 0.15) 0%, transparent 70%),
+    /* Layer 7: Base deep-space linear gradient */
+    linear-gradient(135deg, #060912 0%, #0b1426 55%, #070c17 100%);
+  background-size:
+    280px 280px, 280px 280px, 280px 280px, 280px 280px,
+    390px 390px, 390px 390px, 390px 390px,
+    520px 520px, 520px 520px,
+    40px 40px,
+    40px 40px,
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    100% 100%;
+  background-attachment: fixed;
+  color: #f8fafc;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root, #root > div {
+  background-color: transparent !important;
+  color: #F0EDE5 !important;
+}
+
+/* Suppress legacy neon cyber corner-tick brackets globally */
+.corner-tick-tl,
+.corner-tick-tr,
+.corner-tick-bl,
+.corner-tick-br {
+  display: none !important;
+}
+
+/* Modern Museum Typography System: Clean, Highly Legible Sans-Serif across all headings and content */
+body, p, li, button, input, select, textarea, label, span, div {
+  font-family: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, .font-display {
+  font-family: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+}
+
+h2 {
+  font-family: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+h3, h4, .font-editorial {
+  font-family: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+}
+
+/* Enforce clean, balanced, comfortable typography sizing */
+.text-\[9px\],
+.text-\[10px\],
+.text-\[11px\] {
+  font-size: 0.75rem !important; /* 12px for technical tags/badges */
+  line-height: 1.4 !important;
+}
+
+.text-xs {
+  font-size: 0.8125rem !important; /* 13px for secondary captions/metadata */
+  line-height: 1.5 !important;
+}
+
+.text-sm {
+  font-size: 0.9375rem !important; /* 15px for comfortable secondary reading */
+  line-height: 1.6 !important;
+}
+
+/* Archival Labels & Telemetry Metadata */
+.archival-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #D2A071;
+}
+
+.telemetry-code, .font-mono {
+  font-family: "IBM Plex Mono", Menlo, Monaco, Consolas, monospace;
+  font-feature-settings: "tnum" on, "zero" on;
+}
+
+/* Editorial Headline Sheen — clean, modern sans-serif with strong contrast */
+.headline-cinematic {
+  font-family: "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #F0EDE5;
+  line-height: 1.22;
+}
+
+/* Layered Atmospheric Surfaces (Replaces flat black containers) */
+.museum-bg-primary {
+  background-color: #0B1422;
+  background-image: radial-gradient(ellipse 85% 50% at 50% 0%, rgba(33, 55, 77, 0.45), transparent 72%);
+}
+
+.museum-bg-secondary {
+  background-color: #101E30;
+  background-image: radial-gradient(ellipse 80% 55% at 20% 25%, rgba(33, 55, 77, 0.38), transparent 70%);
+}
+
+.cyber-hud-frame,
+.cyber-hud-frame-amber,
+.editorial-panel {
+  position: relative;
+  background: linear-gradient(180deg, rgba(22, 42, 64, 0.92) 0%, rgba(16, 30, 48, 0.96) 100%);
+  border: 1px solid rgba(210, 160, 113, 0.18);
+  box-shadow: 0 20px 50px -12px rgba(6, 13, 24, 0.55);
+  backdrop-filter: blur(12px);
+}
+
+.editorial-panel-gold {
+  position: relative;
+  background: linear-gradient(180deg, rgba(33, 55, 77, 0.88) 0%, rgba(16, 30, 48, 0.96) 100%);
+  border: 1px solid rgba(210, 160, 113, 0.34);
+  box-shadow: 0 20px 50px -12px rgba(6, 13, 24, 0.6);
+}
+
+.editorial-ivory-sheet {
+  background-color: #F0EDE5;
+  color: #172233;
+  border: 1px solid rgba(23, 34, 51, 0.14);
+  box-shadow: 0 16px 40px -8px rgba(6, 13, 24, 0.35);
+}
+
+/* Quiet Observatory Atmosphere */
+.observatory-canvas,
+.galaxy-canvas,
+.deep-space-threshold,
+.observatory-panel {
+  position: relative;
+  background-color: #101E30;
+  color: #F0EDE5;
+}
+
+/* Museum Archival Cards */
+.hud-card,
+.museum-card,
+.editorial-card {
+  background: linear-gradient(180deg, rgba(22, 42, 64, 0.92) 0%, rgba(16, 30, 48, 0.94) 100%);
+  border: 1px solid rgba(170, 184, 199, 0.16);
+  box-shadow: 0 12px 32px -8px rgba(6, 13, 24, 0.5);
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hud-card:hover,
+.museum-card:hover,
+.editorial-card:hover {
+  border-color: rgba(210, 160, 113, 0.45);
+}
+
+/* Signal Line Hero Card */
+.signal-card {
+  position: relative;
+  background-color: #162A40;
+  border: 1px solid rgba(170, 184, 199, 0.18);
+  box-shadow: 0 12px 32px -6px rgba(6, 13, 24, 0.5);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 0.3s ease,
+              box-shadow 0.3s ease;
+  border-radius: 6px;
+}
+
+.signal-card:hover,
+.signal-card:focus-within {
+  border-color: rgba(210, 160, 113, 0.65);
+  transform: translateY(-4px);
+  box-shadow: 0 22px 44px -10px rgba(6, 13, 24, 0.65);
+}
+
+/* Subtle Atmospheric Lighting */
+.cosmic-singularity-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 680px;
+  height: 680px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(210, 160, 113, 0.16) 0%,
+    rgba(33, 55, 77, 0.24) 45%,
+    transparent 82%
+  );
+  filter: blur(44px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.cosmic-accretion-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  border: 1px solid rgba(210, 160, 113, 0.22);
+  transform: translate(-50%, -50%) rotate(-24deg) scaleY(0.42);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.cosmic-accretion-void {
+  display: none;
+}
+
+.cosmic-nebula-vibrant {
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 780px;
+  height: 580px;
+  background: radial-gradient(
+    ellipse at 60% 40%,
+    rgba(33, 55, 77, 0.55) 0%,
+    rgba(210, 160, 113, 0.09) 45%,
+    transparent 80%
+  );
+  filter: blur(56px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.cosmic-light-beam {
+  display: none;
+}
+
+.circuit-trace-cyan {
+  stroke: rgba(210, 160, 113, 0.35);
+  border-color: rgba(210, 160, 113, 0.25);
+}
+
+.circuit-trace-amber {
+  stroke: rgba(201, 111, 70, 0.35);
+  border-color: rgba(201, 111, 70, 0.25);
+}
+
+.circuit-node-cyan {
+  fill: #D2A071;
+}
+
+.circuit-node-amber {
+  fill: #C96F46;
+}
+
+@keyframes cardSwapIn {
+  from {
+    opacity: 0.88;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-card-swap {
+  animation: cardSwapIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Primary Editorial CTA — Warm Copper / Antique Gold (#D2A071) */
+.btn-primary-cinematic,
+.btn-primary-rust {
+  background-color: #D2A071;
+  color: #0B1422;
+  font-weight: 600;
+  border: 1px solid rgba(240, 237, 229, 0.25);
+  border-radius: 4px;
+  padding: 0.7rem 1.45rem;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 6px 20px rgba(6, 13, 24, 0.35);
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.btn-primary-cinematic:hover,
+.btn-primary-rust:hover {
+  background-color: #DFB58C;
+  color: #0B1422;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 26px rgba(210, 160, 113, 0.28);
+}
+
+/* Secondary Editorial Button — Slate Surface & Warm Border */
+.btn-secondary-cinematic,
+.btn-secondary-outline {
+  background-color: rgba(33, 55, 77, 0.75);
+  color: #F0EDE5;
+  border: 1px solid rgba(210, 160, 113, 0.38);
+  border-radius: 4px;
+  padding: 0.7rem 1.45rem;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+.btn-secondary-cinematic:hover,
+.btn-secondary-outline:hover {
+  background-color: rgba(210, 160, 113, 0.16);
+  border-color: #D2A071;
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+@keyframes drawSignalLineOnce {
+  from {
+    stroke-dashoffset: 1600;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.signal-line-path {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 0;
+  animation: drawSignalLineOnce 2.2s cubic-bezier(0.2, 0.8, 0.2, 1) 1 forwards;
+}
+
+/* Accessibility Focus Rings */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #D2A071;
+  outline-offset: 2px;
+}
+
+/* Editorial Divider */
+.signal-waveform-divider {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.signal-waveform-divider::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 44%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(170, 184, 199, 0.2));
+}
+
+.signal-waveform-divider svg {
+  color: #D2A071;
+}
+
+.signal-waveform-divider::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 44%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(170, 184, 199, 0.2), transparent);
+}
+
+/* Custom Scrollbar */
+.snap-strip-scroll {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.snap-strip-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.snap-strip-scroll::-webkit-scrollbar-track {
+  background: #0B1422;
+}
+
+.snap-strip-scroll::-webkit-scrollbar-thumb {
+  background: rgba(210, 160, 113, 0.35);
+  border-radius: 3px;
+}
+
+.snap-strip-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(210, 160, 113, 0.65);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .signal-line-path {
+    animation: none !important;
+    stroke-dashoffset: 0 !important;
+  }
+}

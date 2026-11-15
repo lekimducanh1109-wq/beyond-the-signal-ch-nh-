@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+*.txt
+__pycache__/
+scratch/
+.antigravity/
+.agents/
+.vscode/
+.env*
+!.env.example

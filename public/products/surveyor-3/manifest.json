@@ -1,0 +1,30 @@
+{
+  "author": "Beyond The Signal Storytelling Team",
+  "title": "SURVEYOR 3: THE LONELY EXPLORER OF THE MOON — Người bạn cô độc trên Mặt Trăng (1967–1969)",
+  "description": "Truyện tranh minh họa 15 trang kể lại hành trình có thật của tàu đổ bộ NASA Surveyor 3 (hạ cánh 20/04/1967 tại Oceanus Procellarum) và cuộc hội ngộ lịch sử với phi hành gia Apollo 12 (19–20/11/1969).",
+  "creative_note": "Truyện tranh kể chuyện sáng tạo của đội thi, đối chiếu chặt chẽ với tư liệu khoa học NASA & Apollo 12.",
+  "pdfUrl": "Surveyor_3_Comic.pdf",
+  "comicCover": "comic/page_01.png",
+  "video": null,
+  "audio": null,
+  "comic": {
+    "pdf": "Surveyor_3_Comic.pdf",
+    "pages": [
+      "comic/page_01.png",
+      "comic/page_02.png",
+      "comic/page_03.png",
+      "comic/page_04.png",
+      "comic/page_05.png",
+      "comic/page_06.png",
+      "comic/page_07.png",
+      "comic/page_08.png",
+      "comic/page_09.png",
+      "comic/page_10.png",
+      "comic/page_11.png",
+      "comic/page_12.png",
+      "comic/page_13.png",
+      "comic/page_14.png",
+      "comic/page_15.png"
+    ]
+  }
+}

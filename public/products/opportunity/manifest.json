@@ -1,0 +1,23 @@
+{
+  "author": "Beyond The Signal Storytelling Team",
+  "title": "LITTLE WHEELS — A Song for Opportunity (MV & Poster Nghệ Thuật)",
+  "description": "Tác phẩm âm nhạc và poster sáng tạo lấy cảm hứng từ hành trình 15 năm (5.111 sol, 45,16 km) của tàu tự hành NASA Opportunity trên Sao Hỏa.",
+  "creative_note": "Tác phẩm sáng tác nghệ thuật của đội thi dựa trên dữ kiện khoa học NASA/JPL.",
+  "poster": "little_wheels_poster.png",
+  "video": {
+    "src": "little_wheels.mp4",
+    "poster": "little_wheels_poster.png",
+    "duration": "03:41",
+    "titleVi": "MV Ca khúc: LITTLE WHEELS — A Song for Opportunity (15 Năm Trên Sao Hỏa)",
+    "titleEn": "Music Video: LITTLE WHEELS — A Song for Opportunity (15 Years on Mars)",
+    "transcript": "Ca khúc kể về sáu bánh xe nhôm nhỏ bé của Opportunity vượt qua mục tiêu thiết kế 90 sol để khám phá bằng chứng nước cổ đại trên Meridiani Planum suốt 45,16 km và 5.111 sol trước cơn bão bụi năm 2018."
+  },
+  "audio": {
+    "src": "little_wheels.mp4",
+    "duration": "03:41",
+    "titleVi": "Bản thu âm: LITTLE WHEELS — A Song for Opportunity",
+    "titleEn": "Audio Track: LITTLE WHEELS — A Song for Opportunity",
+    "transcript": "Một bánh xe nhỏ, một hành trình lớn — Giai điệu tri ân nhà địa chất robot Opportunity trên Sao Hỏa (2004–2018)."
+  },
+  "comic": null
+}

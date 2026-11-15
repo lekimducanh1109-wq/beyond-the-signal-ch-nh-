@@ -1,0 +1,294 @@
+{
+  "project": {
+    "name": "BEYOND THE SIGNAL",
+    "name_vi": "Bảo tàng số về những cỗ máy đã đi xa hơn giới hạn của con người",
+    "tagline": "Every Mind Sees a Different Universe — Mỗi tâm trí nhìn thấy một vũ trụ khác nhau",
+    "type": "Interactive digital museum about NASA space-exploration hardware",
+    "initial_scope": [
+      "Opportunity",
+      "Pioneer 11"
+    ],
+    "not_in_scope": [
+      "Chinese space-program hardware",
+      "fabricated mission records",
+      "AI-generated images represented as NASA photos"
+    ]
+  },
+  "missions": [
+    {
+      "id": "opportunity",
+      "name": "Opportunity",
+      "official_designation": "Mars Exploration Rover B (MER-B)",
+      "vehicle_type": "Rover",
+      "destination": "Mars / Sao Hỏa",
+      "launch_date": "2003-07-07",
+      "landing_date_reference": {
+        "NASA_Science_key_date": "2004-01-24",
+        "NASA_end_of_mission_report": "2004-01-25",
+        "display_guidance_vi": "Hiển thị 24/25-01-2004 và giải thích khác biệt cách ghi ngày/múi giờ; không tự ý bỏ một nguồn."
+      },
+      "planned_primary_mission": {
+        "value": 90,
+        "unit": "sols",
+        "meaning_vi": "90 ngày Sao Hỏa, khoảng ba tháng Trái Đất"
+      },
+      "last_communication": {
+        "date": "2018-06-10",
+        "sol": 5111,
+        "context_vi": "Lần truyền thông cuối cùng; bão bụi lớn làm giảm năng lượng từ các tấm pin mặt trời."
+      },
+      "formal_mission_end": "2019-02-13",
+      "total_distance_km": 45.16,
+      "total_distance_miles": 28.06,
+      "science_goal_vi": "Khảo sát đá và đất Sao Hỏa để tìm bằng chứng về hoạt động của nước trong quá khứ và hiểu các điều kiện môi trường cổ đại.",
+      "key_discoveries_vi": [
+        "Các hạt giàu hematit dạng cầu nhỏ thường được gọi là blueberries.",
+        "Đá trầm tích và các khoáng vật cung cấp bằng chứng về môi trường có nước lỏng trong quá khứ.",
+        "Các quan sát ở những địa điểm khác nhau cho thấy môi trường nước trên Sao Hỏa có thể đã thay đổi theo thời gian."
+      ],
+      "do_not_claim_vi": [
+        "Không tuyên bố Opportunity chứng minh có sự sống trên Sao Hỏa.",
+        "Phân biệt bằng chứng địa chất, diễn giải môi trường và suy đoán về khả năng sống.",
+        "Không nhầm sol với ngày Trái Đất."
+      ],
+      "instruments": [
+        {
+          "name": "Panoramic Camera (Pancam)",
+          "group": "Panoramic Mast Assembly",
+          "function_vi": "Chụp ảnh toàn cảnh màu và đa bộ lọc để quan sát địa hình, đá và bầu trời."
+        },
+        {
+          "name": "Navigation Camera (Navcam)",
+          "group": "Panoramic Mast Assembly",
+          "function_vi": "Camera điều hướng hỗ trợ quan sát địa hình và lập kế hoạch di chuyển."
+        },
+        {
+          "name": "Miniature Thermal Emission Spectrometer (Mini-TES)",
+          "group": "Panoramic Mast Assembly",
+          "function_vi": "Đo bức xạ hồng ngoại nhiệt để hỗ trợ nhận diện khoáng vật từ xa."
+        },
+        {
+          "name": "Mössbauer Spectrometer",
+          "group": "Instrument Deployment Device (IDD)",
+          "function_vi": "Nghiên cứu các khoáng vật chứa sắt trong đá và đất."
+        },
+        {
+          "name": "Alpha Particle X-ray Spectrometer (APXS)",
+          "group": "Instrument Deployment Device (IDD)",
+          "function_vi": "Phân tích thành phần nguyên tố trong mẫu đá và đất."
+        },
+        {
+          "name": "Magnets",
+          "group": "Instrument Deployment Device / rover body",
+          "function_vi": "Thu hút các hạt bụi từ tính để nghiên cứu đặc tính vật liệu bụi Sao Hỏa."
+        },
+        {
+          "name": "Microscopic Imager (MI)",
+          "group": "Instrument Deployment Device (IDD)",
+          "function_vi": "Chụp ảnh cận cảnh kết cấu bề mặt đá và đất."
+        },
+        {
+          "name": "Rock Abrasion Tool (RAT)",
+          "group": "Instrument Deployment Device (IDD)",
+          "function_vi": "Mài lớp bề mặt phong hóa của đá để lộ vật liệu bên trong cho các phép đo."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2003-07-07",
+          "title_vi": "Phóng",
+          "detail_vi": "Rời Cape Canaveral trên tên lửa Delta II.",
+          "source": "NASA Science mission page"
+        },
+        {
+          "date": "2004-01-24/25",
+          "title_vi": "Hạ cánh tại Meridiani Planum",
+          "detail_vi": "Hai trang NASA ghi ngày theo mốc tham chiếu khác nhau; cần giữ chú thích nguồn/múi giờ."
+        },
+        {
+          "date": "2004",
+          "title_vi": "Bằng chứng khoáng vật liên quan đến nước",
+          "detail_vi": "Nghiên cứu các hạt hematit và đá trầm tích."
+        },
+        {
+          "date": "2011",
+          "title_vi": "Đến vành hố Endeavour",
+          "detail_vi": "Mở rộng khu vực khảo sát địa chất."
+        },
+        {
+          "date": "2015",
+          "title_vi": "Vượt quãng đường marathon ngoài Trái Đất",
+          "detail_vi": "Opportunity trở thành nhiệm vụ đầu tiên vượt khoảng cách marathon trên một thiên thể khác."
+        },
+        {
+          "date": "2018-06-10",
+          "title_vi": "Tín hiệu cuối – sol 5.111",
+          "detail_vi": "Bức ảnh cuối được gửi trong lúc bão bụi làm tối bầu trời."
+        },
+        {
+          "date": "2019-02-13",
+          "title_vi": "NASA tuyên bố kết thúc nhiệm vụ",
+          "detail_vi": "Sau nhiều nỗ lực khôi phục liên lạc."
+        }
+      ],
+      "sources": [
+        "https://science.nasa.gov/mission/mer-opportunity/",
+        "https://ntrs.nasa.gov/search.jsp?R=20200000214",
+        "https://science.nasa.gov/resource/opportunitys-last-message/",
+        "https://science.nasa.gov/resource/opportunity-rovers-final-mars-images/",
+        "https://science.nasa.gov/missions/mer/nasas-opportunity-rover-mission-on-mars-comes-to-end/"
+      ]
+    },
+    {
+      "id": "pioneer-11",
+      "name": "Pioneer 11",
+      "official_designation": "Pioneer-G",
+      "vehicle_type": "Deep-space flyby spacecraft / Tàu thăm dò bay ngang",
+      "destination": "Jupiter, Saturn, deep space / Sao Mộc, Sao Thổ, không gian sâu",
+      "launch": {
+        "date_utc": "1973-04-06",
+        "time_utc": "02:11",
+        "note_vi": "NASA Science ghi ngày 06/04/1973 lúc 02:11 UT. Một số trang lịch sử ghi 05/04 theo ngày địa phương tại Florida."
+      },
+      "mass_kg": 258.5,
+      "jupiter_flyby": "1974-12-03",
+      "saturn_flyby": "1979-09-01",
+      "saturn_closest_approach_km_approx": 21000,
+      "last_nasa_ames_contact": "1995-09-30",
+      "last_engineering_data_received": "1995-11-24",
+      "objective_vi": "Bay ngang Sao Mộc và Sao Thổ để khảo sát từ trường, bức xạ, khí quyển, các vành đai và môi trường hạt xung quanh các hành tinh khí khổng lồ.",
+      "milestones": [
+        {
+          "date": "1973-04-06 UTC",
+          "title_vi": "Phóng",
+          "detail_vi": "Phóng bằng tên lửa Atlas-Centaur từ Cape Canaveral."
+        },
+        {
+          "date": "1974-12-03",
+          "title_vi": "Bay qua Sao Mộc",
+          "detail_vi": "Thu thập dữ liệu và hình ảnh; lực hấp dẫn Sao Mộc hỗ trợ đổi hướng tàu về phía Sao Thổ."
+        },
+        {
+          "date": "1979-09-01",
+          "title_vi": "Bay qua Sao Thổ",
+          "detail_vi": "Tàu đầu tiên bay qua Sao Thổ; tiếp cận khoảng 21.000 km."
+        },
+        {
+          "date": "1990-02-23",
+          "title_vi": "Vượt quỹ đạo Sao Hải Vương",
+          "detail_vi": "Tiếp tục hành trình ra ngoài Hệ Mặt Trời."
+        },
+        {
+          "date": "1995-09-30",
+          "title_vi": "Liên lạc cuối tại NASA Ames",
+          "detail_vi": "Mốc tiếp xúc cuối được NASA Ames ghi nhận."
+        },
+        {
+          "date": "1995-11-24",
+          "title_vi": "Dữ liệu kỹ thuật cuối",
+          "detail_vi": "Các nhà khoa học nhận được một vài phút dữ liệu kỹ thuật tốt; đây là mốc khác với lần liên lạc cuối."
+        }
+      ],
+      "scientific_instruments_12": [
+        "Imaging Photopolarimeter",
+        "Helium Vector Magnetometer (HVM)",
+        "Infrared Radiometer",
+        "Quadrispherical Plasma Analyzer",
+        "Ultraviolet Photometer",
+        "Charged Particle Instrument (CPI)",
+        "Cosmic Ray Telescope (CRT)",
+        "Geiger Tube Telescope (GTT)",
+        "Sisyphus Asteroid/Meteoroid Detector (AMD)",
+        "Meteoroid Detectors",
+        "Trapped Radiation Detector (TRD)",
+        "Triaxial Fluxgate Magnetometer"
+      ],
+      "power_system_vi": "Pioneer 11 dùng bốn SNAP-19 radioisotope thermoelectric generators (RTG) để cấp điện và các bộ gia nhiệt đồng vị phóng xạ. Không diễn đạt như thể tàu dùng tấm pin mặt trời.",
+      "pioneer_plaque_vi": "Pioneer 10 và Pioneer 11 đều mang tấm bảng kim loại nhỏ thể hiện hình người, vị trí Trái Đất trong thiên hà bằng bản đồ pulsar và sơ đồ Hệ Mặt Trời. Đây là thông điệp biểu tượng, không bảo đảm sẽ có người ngoài Trái Đất nhận được.",
+      "key_results_vi": [
+        "Là tàu vũ trụ đầu tiên bay qua Sao Thổ.",
+        "Phát hiện vành đai F của Sao Thổ.",
+        "Phát hiện hai vệ tinh mới của Sao Thổ theo trang NASA.",
+        "Thu thập dữ liệu về từ quyển, từ trường và cấu trúc chung bên trong Sao Thổ.",
+        "Chụp hình Sao Thổ, các vành đai và Titan trong lần bay qua."
+      ],
+      "sources": [
+        "https://science.nasa.gov/mission/pioneer-11/",
+        "https://science.nasa.gov/resource/pioneer-spacecraft-diagram/",
+        "https://science.nasa.gov/resource/pioneer-plaque/",
+        "https://science.nasa.gov/image-detail/amf-cf2ae57d-b5f0-42ea-b5e3-c955208bc278/",
+        "https://science.nasa.gov/resource/pioneer-11-at-saturn/",
+        "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/missions/"
+      ]
+    }
+  ],
+  "young_explorers": {
+    "purpose_vi": "Không gian trưng bày cách người trẻ quan sát, hiểu, diễn giải và tưởng tượng về vũ trụ; không phải mạng xã hội hay cuộc thi độ phổ biến.",
+    "categories": [
+      {
+        "id": "verified_fact",
+        "label_vi": "Sự kiện khoa học đã kiểm chứng"
+      },
+      {
+        "id": "scientific_interpretation",
+        "label_vi": "Diễn giải khoa học"
+      },
+      {
+        "id": "artistic_expression",
+        "label_vi": "Biểu đạt nghệ thuật"
+      },
+      {
+        "id": "fiction_reconstruction",
+        "label_vi": "Hư cấu / tái hiện sáng tạo"
+      }
+    ],
+    "submission_types": [
+      "Tranh",
+      "Poster",
+      "Truyện",
+      "Truyện tranh",
+      "Video",
+      "Mô hình",
+      "Ý tưởng kỹ thuật",
+      "Bài phản ánh"
+    ],
+    "reflection_prompts": [
+      "Em hiểu điều gì từ tư liệu?",
+      "Chi tiết nào khiến em chú ý?",
+      "Em có câu hỏi nào?",
+      "Vì sao em chọn cách thể hiện này?",
+      "Em muốn khám phá thêm điều gì?"
+    ],
+    "rules": [
+      "Không có bảng xếp hạng lượt thích hoặc người theo dõi.",
+      "Không hiển thị email cá nhân.",
+      "Tác phẩm mẫu phải ghi rõ là mẫu/demo.",
+      "Người gửi phải phân loại tác phẩm.",
+      "Người xem bình luận theo hướng tôn trọng và tìm hiểu góc nhìn tác giả.",
+      "Phân biệt dữ kiện khoa học với nghệ thuật và hư cấu."
+    ]
+  },
+  "archive": {
+    "filters": [
+      "Tên thiết bị",
+      "Nhiệm vụ",
+      "Điểm đến",
+      "Loại phần cứng",
+      "Trạng thái"
+    ],
+    "hardware_types": [
+      "Rover",
+      "Spacecraft / Probe",
+      "Lander",
+      "Satellite",
+      "Space Telescope",
+      "Scientific Instrument",
+      "Other NASA Hardware"
+    ],
+    "initial_records": [
+      "opportunity",
+      "pioneer-11"
+    ],
+    "future_collections_must_be_labelled": "Bộ sưu tập đang mở rộng — chưa phải hồ sơ hoàn chỉnh"
+  }
+}
