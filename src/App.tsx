@@ -191,7 +191,7 @@ export default function App() {
       }
 
       case '/san-pham':
-        return <TeamProductsPage onNavigate={navigateTo} />;
+        return <TeamProductsPage lang={lang} onNavigate={navigateTo} />;
 
       case '/mo-phong':
       case '/simulations':
